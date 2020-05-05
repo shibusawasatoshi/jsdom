@@ -4,8 +4,8 @@ const {
 } = require('jsdom')
 
 request('http://www.uec.ac.jp/', (e, response, body) => {
-  if (e) {
-    console.error(e)
+  if (a) {
+    console.error(a)
   }
 
   try {
