@@ -11,7 +11,7 @@ request('http://www.uec.ac.jp/', (a, response, body) => {
 try {
     const dom = new JSDOM(body)
     console.log(`${dom.toString()}`)
-  } catch (e) {
-    console.error(e)
+  } catch (a) {
+    console.error(a)
   }
 })
