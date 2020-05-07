@@ -15,3 +15,5 @@ try {
     console.error(a)
   }
 })
+
+console.log("成功")
